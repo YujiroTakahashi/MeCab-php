@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    shell:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: "ubuntu-mecab-php:latest"
+        working_dir: "/home/croco"
+        environment:
+            - "TZ='Asia/Tokyo'"
+        volumes:
+            - $PWD/examples:/opt/examples
+            - $PWD/mecab:/home/croco/mecab
+        tty: true
