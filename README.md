@@ -1,6 +1,6 @@
-Groongaクライアント
+Mecabクライアント
 ======================
-PHP7 / PHP8 bindings for Groonga.
+PHP8 bindings for MeCab.
 
 ---
 
@@ -8,12 +8,12 @@ PHP7 / PHP8 bindings for Groonga.
 
 * [利用方法](#install)
 * [Docker環境実行](#docker)
-* [Proongaクラス](#class00)
+* [MeCabクラス](#class00)
 
 
 ## <a name="install">利用方法
 
-### Mecabライブラリのインストール ###
+### MeCabライブラリのインストール ###
 ```    
 $ sudo apt -y install libmecab2
 ```
