@@ -77,7 +77,7 @@ public Proonga::parse(string $str): string
 /* オブジェクト生成 */
 $mecab = new \Mecab('/var/lib/mecab/dic/unidic');
 $res = $mecab->parse('すもももももももものうち');
-print_r($res);
+echo $res;
 ```
 ```
 すもも	名詞,普通名詞,一般,*,*,*,スモモ,李,すもも,スモモ,すもも,スモモ,和,*,*,*,*,*,*,体,スモモ,スモモ,スモモ,スモモ,0,C2,*,15660352771596800,56972
@@ -201,10 +201,10 @@ Array
 
 ---
 
-## <a name="class20"> 形態素解析：：配列
+## <a name="class50"> 形態素解析：：配列
 
 ```php
-public Proonga::tagger(string $str): string
+public Proonga::tagger(string $str): array
 ```
   
 **引数**
