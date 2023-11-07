@@ -51,7 +51,7 @@ docker-compose run shell php /opt/examples/mecab.php
 ## <a name="class10"> コンストラクタMeCabの初期化など
 
 ```php
-public Proonga::__construct(string $path)
+public Mecab::__construct(string $path)
 ```
   
 **引数**
@@ -63,7 +63,7 @@ public Proonga::__construct(string $path)
 ## <a name="class20"> 形態素解析：：Dump
 
 ```php
-public Proonga::parse(string $str): string
+public Mecab::parse(string $str): string
 ```
   
 **引数**
@@ -94,7 +94,7 @@ echo $res;
 ## <a name="class30"> 分かち書き
 
 ```php
-public Proonga::wakati(string $str): array
+public Mecab::wakati(string $str): array
 ```
   
 **引数**
@@ -128,7 +128,7 @@ Array
 ## <a name="class40"> 分かち書き：：読み
 
 ```php
-public Proonga::yomi(string $str): array
+public Mecab::yomi(string $str): array
 ```
   
 **引数**
@@ -204,7 +204,7 @@ Array
 ## <a name="class50"> 形態素解析：：配列
 
 ```php
-public Proonga::tagger(string $str): array
+public Mecab::tagger(string $str): array
 ```
   
 **引数**
