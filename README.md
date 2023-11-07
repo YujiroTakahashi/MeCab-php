@@ -42,13 +42,13 @@ docker-compose run shell php /opt/examples/mecab.php
 
 ## <a name="class00">クラス  
 
-* [Mecab::__construct](#class10)― コンストラクタGroongaの初期化など
+* [Mecab::__construct](#class10)― コンストラクタMeCabの初期化など
 * [Mecab::parse](#class20) ― 形態素解析：：Dump
 * [Mecab::wakati](#class30) ― 分かち書き
-* [Mecab::yomi](#class40) ― 分かち書き読み
+* [Mecab::yomi](#class40) ― 分かち書き：：読み
 * [Mecab::tagger](#class50) ― 形態素解析：：配列
 
-## <a name="class10"> コンストラクタMecabの初期化など
+## <a name="class10"> コンストラクタMeCabの初期化など
 
 ```php
 public Proonga::__construct(string $path)
@@ -356,7 +356,7 @@ Array
 
 ライセンス
 ----------
-Copyright &copy; 2014 Yujiro Takahashi  
+Copyright &copy; 2023 Yujiro Takahashi  
 Licensed under the [MIT License][MIT].  
 Distributed under the [MIT License][MIT].  
 
